@@ -1,0 +1,114 @@
+/* Search Hero Section with Background Image */
+.search-hero {
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #ff6f61, #ff4a3d); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .search-hero .search-filter {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .search-hero h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .search-hero .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-hero select, .search-hero button {
+    padding: 15px 25px; /* Larger padding */
+    font-size: 18px; /* Larger font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-hero button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-hero button:hover {
+    background-color: #ff4a3d;
+  }
+  
+  /* House Listing Styles */
+  .house-listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased gap between cards */
+    padding: 40px;
+    justify-content: center;
+  }
+  
+  .house-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 400px; /* Larger card width */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .house-card img {
+    width: 100%;
+    height: 250px; /* Larger image height */
+    object-fit: cover;
+  }
+  
+  .house-card .details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .house-card h3 {
+    margin: 15px 0;
+    font-size: 24px; /* Larger heading */
+  }
+  
+  .house-card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 16px; /* Larger font size */
+  }
+  
+  .house-card button {
+    padding: 12px 24px; /* Larger buttons */
+    margin: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+  }
+  
+  .house-card .view-details {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .house-card .contact-owner {
+    background-color: #ff6f61;
+    color: white;
+  }
+  
+  .house-card .view-details:hover {
+    background-color: #45a049;
+  }
+  
+  .house-card .contact-owner:hover {
+    background-color: #ff4a3d;
+  }
